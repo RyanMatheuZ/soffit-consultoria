@@ -1,0 +1,23 @@
+{
+  "name": "soffit-consultoria",
+  "version": "1.0.0",
+  "description": "### About Soffit Consultoria is a personal project, about a fictitious consultancy, with services in web and mobile development, team management and much more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanMatheuZ/soffit-consultoria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanMatheuZ/soffit-consultoria/issues"
+  },
+  "homepage": "https://github.com/RyanMatheuZ/soffit-consultoria#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
