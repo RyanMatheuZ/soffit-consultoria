@@ -1,3 +1,5 @@
+<img src="./assets/img/logo/soffit-logo.svg" alt="Logo Soffit Consultoria" title="Logo Soffit Consultoria" width="80">
+
 # Soffit Consultoria
 
 ### About
