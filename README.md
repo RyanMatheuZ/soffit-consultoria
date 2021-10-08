@@ -1,11 +1,11 @@
 # Soffit Consultoria
 
 ### About
-Soffit Consultoria is a personal project, about a fictional consultancy, with services in web and mobile development, team management and much more.
+Soffit Consultoria is a personal project, about a fictional consultancy, with services in business plans, analysis, strategies, sales, marketing and costumer experience.
 
 ### Technologies
 - HTML 5
-- Tailwind CSS
+- Tailwind CSS (2.2.16)
 - jQuery (3.6)
 
 ### License
