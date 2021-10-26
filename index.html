@@ -32,10 +32,6 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./vendors/tailwind/main.css">
-
-    <!-- Scripts -->
-    <script src="./vendors/jquery/jquery-3.6.0.min.js" defer></script>
-    <script src="./assets/js/script.js" defer></script>
 </head>
 
 <body class="m-0 p-0">
@@ -104,7 +100,7 @@
                         </p>
 
                         <a 
-                            href="#about"
+                            href="#services"
                             title="Ver mais"
                             class="bg-red-700 text-white text-center font-semibold block rounded-md p-3 mt-4 w-2/5 md:w-1/5">
                             Ver mais
@@ -114,7 +110,7 @@
             </div>
         </section>
 
-        <section id="about" class="bg-gray-900 px-5 pt-5 pb-10">
+        <section id="services" class="bg-gray-900 px-5 pt-5 pb-10">
             <div class="container mx-auto grid items-center md:grid-cols-1 lg:grid-cols-2">
                 <article class="pr-5 py-5">
                     <h2 class="text-white text-3xl md:text-4xl font-semibold mb-4">
@@ -131,7 +127,7 @@
                 </article>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:pl-5 py-3">
-                    <article class="bg-white rounded-lg p-5 transform md:translate-y-6">
+                    <article class="bg-white flex flex-col items-center md:items-start rounded-lg p-5 transform md:translate-y-6">
                         <h3 class="text-red-700 text-2xl font-semibold">
                             Planos de Negócio
                         </h3>
@@ -148,12 +144,12 @@
                             >
                         </figure>
     
-                        <p class="text-md">
+                        <p class="text-md text-center md:text-left">
                             Para aqueles que buscam uma melhor gestão e administração. Mapeando todas as ações que são feitas e que devem ser melhoradas.
                         </p>
                     </article>
 
-                    <article class="bg-white rounded-lg p-5">
+                    <article class="bg-white flex flex-col items-center md:items-start rounded-lg p-5">
                         <h3 class="text-red-700 text-2xl font-semibold">
                             Análise & Estratégia
                         </h3>
@@ -170,12 +166,12 @@
                             >
                         </figure>
     
-                        <p class="text-md">
+                        <p class="text-md text-center md:text-left">
                             Forma de pesquisar, analisar e mapear as particularidades presentes no escopo de uma organização.
                         </p>
                     </article>
 
-                    <article class="bg-white rounded-lg p-5 transform md:translate-y-6">
+                    <article class="bg-white flex flex-col items-center md:items-start rounded-lg p-5 transform md:translate-y-6">
                         <h3 class="text-red-700 text-2xl font-semibold">
                             Vendas & Marketing
                         </h3>
@@ -192,12 +188,12 @@
                             >
                         </figure>
     
-                        <p class="text-md">
+                        <p class="text-md text-center md:text-left">
                             Mesmo que indiretamente, promover um produto/<strong class="font-normal">serviço</strong> e aumentar o reconhecimento são formas de garantir mais conversões.
                         </p>
                     </article>
 
-                    <article class="bg-white rounded-lg p-5">
+                    <article class="bg-white flex flex-col items-center md:items-start rounded-lg p-5">
                         <h3 class="text-red-700 text-2xl font-semibold">
                             Experiência do Cliente
                         </h3>
@@ -214,7 +210,7 @@
                             >
                         </figure>
     
-                        <p class="text-md">
+                        <p class="text-md text-center md:text-left">
                             Toda interação que seus <strong class="font-normal">clientes</strong> têm com sua empresa durante todo o relacionamento que se estabelece. Sua <strong class="font-normal">marca</strong> sempre presente na memória do <strong class="font-normal">cliente</strong>.
                         </p>
                     </article>
@@ -254,7 +250,7 @@
             </div>
         </section>
 
-        <section class="bg-gray-900 p-10">
+        <section id="team" class="bg-gray-900 p-10">
             <h2 class="text-white text-center text-3xl md:text-4xl font-semibold mb-10">
                 Nossa equipe
             </h2>
@@ -326,14 +322,74 @@
 
             <div class="flex justify-center">
                 <a 
-                    href="#"
+                    href="#doubts"
                     title="Ver mais"
                     class="bg-red-700 text-white text-center font-semibold rounded-md px-7 py-3">
                     Ver mais
                 </a>
             </div>
         </section>
+
+        <section id="doubts" class="bg-gradient-to-r from-gray-50 to-gray-100 p-10">
+            <h2 class="text-gray-900 text-center text-3xl md:text-4xl font-semibold mb-10">
+                Dúvidas
+            </h2>
+
+            <div class="flex flex-col items-center justify-center">
+                <details class="bg-white w-full md:w-2/4 mb-5 pl-4 py-5">
+                    <summary class="text-red-700 font-semibold list-none cursor-pointer">
+                        1. O que é Consultoria?
+                    </summary>
+    
+                    <p class="px-3 pt-5">
+                        Consultoria é o processo de avaliação de uma questão específica e a realização de um estudo acerca do assunto, possibilitando a geração de informações para tomada de decisão. Essencialmente a Consultoria é a avaliação de uma necessidade empresarial e a posterior formulação de uma solução para preencher tal necessidade.
+                    </p>
+                </details>
+    
+                <details class="bg-white w-full md:w-2/4 mb-5 pl-4 py-5">
+                    <summary class="text-red-700 font-semibold list-none cursor-pointer">
+                        2. Como a Consultoria funciona?
+                    </summary>
+    
+                    <p class="px-3 pt-5">
+                        Primeiro é preciso bem estabelecer o que é o objeto de estudo da Consultoria. A definição do ponto inicial, ou causa da necessidade é aspecto chave para o início de qualquer trabalho que busque uma nova metodologia, processo de trabalho ou solução.
+                    </p>
+                </details>
+
+                <details class="bg-white w-full md:w-2/4 mb-5 pl-4 py-5">
+                    <summary class="text-red-700 font-semibold list-none cursor-pointer">
+                        3. Por que contratar um Consultor?
+                    </summary>
+    
+                    <p class="px-3 pt-5">
+                        A contratação de um Consultor é a forma mais rápida e eficiente de buscar desenvolvimento e melhorias em uma organização. O Consultor é um profissional externo que permite agregar valor a processos e produtos utilizando-se de diversas metodologias de gestão empresarial, as quais bem utilizadas podem alavancar os resultados de uma organização fácil e rapidamente.
+                    </p>
+                </details>
+
+                <details class="bg-white w-full md:w-2/4 mb-5 pl-4 py-5">
+                    <summary class="text-red-700 font-semibold list-none cursor-pointer">
+                        4. O que devo considerar antes de contratar uma Consultoria?
+                    </summary>
+    
+                    <p class="px-3 pt-5">
+                        A consequência mais certa e absoluta após um trabalho de consultoria é a MUDANÇA. O empresário/gestor deve estar preparado para compreender o cenário com realismo e a necessidade de alterar formas de trabalho para alcançar novos resultados. Ao buscar uma consultoria o empresário deve estar aberto a quebrar paradigmas e estabelecer novas formas de trabalho e relacionamento.
+                    </p>
+                </details>
+            </div>
+        </section>
     </main>
+
+    <footer id="contact" class="pt-10">
+        <p class="bg-gray-900 text-white text-center py-4">
+            Desenvolvido com muito 
+            <span title="Amor" class="cursor-default">❤</span> e
+            <span title="Café" class="cursor-default">☕</span>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
