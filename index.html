@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./vendors/tailwind/main.css">
+    <link rel="stylesheet" href="./vendor/tailwind/main.css">
 </head>
 
 <body class="m-0 p-0">
@@ -379,8 +379,82 @@
         </section>
     </main>
 
-    <footer id="contact" class="pt-10">
-        <p class="bg-gray-900 text-white text-center py-4">
+    <footer id="contact" class="bg-gray-700 flex flex-col items-center pt-10">
+        <h2 class="text-white text-center text-3xl md:text-4xl font-semibold mb-5">
+            Contato
+        </h2>
+
+        <form id="form-contact" class="flex flex-col w-full md:w-5/12 px-7">
+            <input 
+                type="text" 
+                placeholder="Seu nome:" 
+                title="Campo obrigatório" 
+                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
+                required
+            >
+
+            <input 
+                type="email" 
+                placeholder="Seu E-mail:" 
+                title="Campo obrigatório"
+                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
+                required
+            >
+
+            <textarea 
+                placeholder="Sua mensagem:" 
+                title="Campo obrigatório" 
+                class="resize-y rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
+                required></textarea>
+
+            <button 
+                type="submit" 
+                title="Enviar formulário" 
+                class="bg-green-600 hover:bg-gray-100 text-white hover:text-green-600 border-2 hover:border-green-600 transition duration-300 ease-linear font-semibold w-1/2 mx-auto rounded-md py-2 px-4 mt-5"
+            >
+                Enviar
+            </button>
+        </form>
+
+        <div class="flex mt-12">
+            <figure 
+                title="Facebook" 
+                class="mx-4 transition duration-200 ease-linear transform hover:-rotate-12 hover:-translate-y-1"
+            >
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/social-media/facebook-icon.svg" alt="Facebook" width="40">
+                </a>
+            </figure>
+
+            <figure 
+                title="Instagram" 
+                class="mx-4 transition duration-200 ease-linear transform hover:-rotate-12 hover:-translate-y-1"
+            >
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/social-media/instagram-icon.svg" alt="Instagram" width="40">
+                </a>
+            </figure>
+
+            <figure 
+                title="YouTube" 
+                class="mx-4 transition duration-200 ease-linear transform hover:-rotate-12 hover:-translate-y-1"
+            >
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/social-media/youtube-icon.svg" alt="YouTube" width="40">
+                </a>
+            </figure>
+
+            <figure 
+                title="LinkedIn" 
+                class="mx-4 transition duration-200 ease-linear transform hover:-rotate-12 hover:-translate-y-1"
+            >
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="./assets/img/social-media/linkedin-icon.svg" alt="LinkedIn" width="40">
+                </a>
+            </figure>
+        </div>
+
+        <p class="bg-gray-900 text-white text-center w-full py-6 mt-12">
             Desenvolvido com muito 
             <span title="Amor" class="cursor-default">❤</span> e
             <span title="Café" class="cursor-default">☕</span>
@@ -388,7 +462,10 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="./vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/jquery/jquery.validate.js"></script>
+    <script src="./vendor/jquery/messages_pt_BR.js"></script>
+    <script src="./assets/js/form.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
