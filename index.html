@@ -32,6 +32,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./vendor/tailwind/main.css">
+    <link rel="stylesheet" href="./assets/css/validate.css">
 </head>
 
 <body class="m-0 p-0">
@@ -465,36 +466,43 @@
             Contato
         </h2>
 
-        <form id="form-contact" class="flex flex-col w-full md:w-5/12 px-7 transform translate-y-28 opacity-0 invisible animation--move-up">
+        <form 
+            id="contact-form" 
+            class="flex flex-col w-full md:w-5/12 px-7 transform translate-y-28 opacity-0 invisible animation--move-up"
+            method="post"
+        >
             <input 
                 type="text" 
                 placeholder="Seu nome:" 
-                title="Campo obrigatório" 
-                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
-                required
+                title="Campo obrigatório"
+                id="inputName"
+                name="inputName"
+                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900 mb-2" 
             >
 
             <input 
                 type="email" 
                 placeholder="Seu E-mail:" 
                 title="Campo obrigatório"
-                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
-                required
+                id="inputEmail"
+                name="inputEmail"
+                class="rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900 mb-2" 
             >
 
             <textarea 
                 placeholder="Sua mensagem:" 
-                title="Campo obrigatório" 
-                class="resize-y rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900" 
-                required></textarea>
+                title="Campo obrigatório"
+                id="inputMessage" 
+                name="inputMessage"
+                class="resize-y rounded-md w-full p-3 mt-5 outline-none focus:ring-4 focus:ring-gray-900 mb-2" 
+                ></textarea>
 
-            <button 
-                type="submit" 
-                title="Enviar formulário" 
-                class="bg-green-600 hover:bg-gray-100 text-white hover:text-green-600 border-2 hover:border-green-600 transition duration-300 ease-linear font-semibold w-1/2 mx-auto rounded-md py-2 px-4 mt-5"
+            <input
+                type="submit"
+                value="Enviar"
+                title="Enviar formulário"
+                class="bg-green-600 hover:bg-gray-100 text-white hover:text-green-600 border-2 hover:border-green-600 transition duration-300 ease-linear font-semibold w-1/2 mx-auto rounded-md py-2 px-4 mt-5 cursor-pointer"
             >
-                Enviar
-            </button>
         </form>
 
         <div class="flex mt-12 transform translate-y-28 opacity-0 invisible animation--move-up">
@@ -545,6 +553,7 @@
     <!-- Scripts -->
     <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="./vendor/jquery/jquery.validate.js"></script>
+    <script src="./vendor/jquery/additional-methods.js"></script>
     <script src="./vendor/jquery/messages_pt_BR.js"></script>
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/script.js"></script>
