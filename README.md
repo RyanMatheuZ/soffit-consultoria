@@ -3,7 +3,7 @@
 # Soffit Consultoria
 
 ### About
-Soffit Consultoria is a personal project, about a fictional consultancy, with services in business plans, analysis, strategies, sales, marketing and costumer experience.
+Soffit Consultoria is a personal project, about a fictitious consultancy, with services in business plans, analysis, strategies, sales, marketing and costumer experience.
 
 ### Technologies
 - HTML 5
